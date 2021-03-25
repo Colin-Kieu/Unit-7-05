@@ -15,7 +15,5 @@ function action () {
   } else if ((age >= 18) && (day === 'saturday' || day === 'sunday')) {
     document.getElementById('answer').innerHTML = 'Relax, its the weekend!'
   } else if ((age >= 18) && (day !== 'saturday' || day !== 'sunday')) {
-    document.getElementById('answer').innerHTML = 'Time for Work!'
-  }
-
+    document.getElementById('answer').innerHTML = 'Time for Work!'}
 }
